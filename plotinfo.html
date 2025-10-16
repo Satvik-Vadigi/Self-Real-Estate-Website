@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plot-Inofrmation Page</title>
+    <link rel="stylesheet" href="pistyles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="top">
+                <img src="https://graphicsfamily.com/wp-content/uploads/edd/2020/04/house-apartment-logo-green-Transparent-1.png" alt="logo" />
+                <img src="https://graphicsfamily.com/wp-content/uploads/edd/2020/04/house-apartment-logo-green-Transparent-1.png" alt="name" />
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="galarry.html">Gallery</a>
+                <a href="plotinfo.html">Plot Information</a>
+                <a href="amenities.html">Amenities</a>
+                <a href="contact.html">Contact</a>
+                <a href="testimonials.html">Testimonials</a>
+                <a href="blog_news.html">Blog/News</a>
+                <a href="legalinfo.html">Legal Information</a>
+            </nav>
+        </header>
+        <section class="intro">
+            <h1>Plot Information</h1>
+            <p>Explore the details of our available plots and find your perfect piece of land.</p>
+        </section>
+        <section class="map">
+            <div class="map-text">
+                <h2>Interactive Map</h2>
+                <p>Click on the map to view available plots and locations.</p>
+            </div>
+            <div class="map-container">
+                <div  id="map" class="google-map"></div>
+            </div>
+        </section>
+        <section class="plot-details">
+            <h2>Plot Details Table</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Plot Number</th>
+                        <th>Size (sq ft)</th>
+                        <th>Price (INR)</th>
+                        <th>Status/Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2000</td>
+                        <td>20,00,000</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>2500</td>
+                        <td>25,00,000</td>
+                        <td>Sold</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>3000</td>
+                        <td>30,00,000</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>3500</td>
+                        <td>35,00,000</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>4000</td>
+                        <td>40,00,000</td>
+                        <td>Sold</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>4500</td>
+                        <td>45,00,000</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>5000</td>
+                        <td>50,00,000</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>5500</td>
+                        <td>55,00,000</td>
+                        <td>Sold</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>6000</td>
+                        <td>60,00,000</td>
+                        <td>Available</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="image-carousel">
+            <section class="carousel-container">
+                <h2>Image Carousel</h2>
+                <div class="carousel">
+                    <img src="https://www.tluxp.com/sites/default/files/blog-gallery-images/carousel_estates-large-022-great_room-1500x1000-72dpi.jpg" alt="Plot Image 1" />
+                    <img src="https://thumbs.dreamstime.com/z/plot-land-lot-sale-investment-aerial-view-include-green-field-agriculture-farm-residential-house-building-village-228356022.jpg" alt="Plot Image 2" />
+                    <img src="https://i.pinimg.com/originals/b4/b9/aa/b4b9aac0fd4a6efd448db56874b15326.jpg" alt="Plot Image 3" />
+                    <img src="https://amazingarchitecture.com/storage/711/Deep-Villa-Atrey-and-Associates-New-Delhi-ndia-Amazing-Architecture-House.jpg" alt="Plot Image 4" />
+                    <img src="https://www.buildofy.com/blog/content/images/2022/06/_DSC8389-Edited_-min.jpg" alt="Plot Image 5" />
+                    <img src="https://i.pinimg.com/originals/58/c3/9d/58c39d281fdd6b21bcf337167044c35c.jpg" alt="Plot Image 6" />
+                    <img src="https://assets.architecturaldigest.in/photos/63d902ba2d4955ac20754d81/4:3/w_1440" alt="Plot Image 7" />
+                    <img src="https://agoldbergphoto.com/wp-content/uploads/residential/Residential-4-2000x1333.jpg" alt="Plot Image 8" />
+                    <img src="https://agoldbergphoto.com/wp-content/uploads/residential/Residential-5-2000x1333.jpg" alt="Plot Image 9" />
+                    <img src="https://eycrk5cno2n.exactdn.com/wp-content/uploads/2022/02/The-Importance-of-High-Quality-Real-Estate-Photos-v3.jpg" alt="Plot Image 10" />
+                    <img src="http://www.philsavoryphotography.com.au/wp-content/uploads/2018/04/modern-home-kuraby-01.jpg" alt="Plot Image 11" />
+                    <img src="https://media.architecturaldigest.in/wp-content/uploads/2019/11/brick-house-kerala3-1.gif" alt="Plot Image 12" />
+                </div>
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </section>
+            <div class="dots">
+                <span class="dot active" onclick="setSlide(0)"></span>
+                <span class="dot" onclick="setSlide(1)"></span>
+                <span class="dot" onclick="setSlide(2)"></span>
+            </div>
+        </section>
+        <section class="dm">
+            <h2>Direct Enquiry</h2>
+            <div class="dma">
+                <a href="tel:+919849999999">
+                    <div class="call">
+                        <img src="https://cdn-icons-png.flaticon.com/512/32/32473.png" alt="agent" />
+                        <p>Talk with Agent</p>
+                    </div>
+                </a>
+                <a href="mailto:bhoodevigardens@gmail.com">
+                    <div class="mail">
+                        <img src="https://static.vecteezy.com/system/resources/previews/020/009/614/non_2x/email-and-mail-icon-black-free-png.png" alt="email" />
+                        <p>Email Us</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <footer>
+            <div class="address">
+                <h3>Address Details</h3>
+                <p>Jammu Narayanapuram, Vizianagaram, VIZIANAGARAM, Andhra Pradesh, India. Pincode: 535002</p>
+            </div>
+            <div class="social">
+                <div class="text">
+                    <h3>Social Media</h3>
+                </div>
+                <div class="icons">
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png" alt="WhatsApp" id="w" /></a>
+                    <a href="#"><img src="https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png" alt="Youtube" id="yt" /></a>
+                    <a href="#"><img src="https://freepnglogo.com/images/all_img/1691832581twitter-x-icon-png.png" alt="X(Twitter)" id="x" /></a>
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/500px-Instagram_icon.png" alt="Instagram" id="i" /></a>
+                </div>
+            </div>
+        </footer>
+        <section class="cr">
+            <p>© Satvik Vadigi 2025 All Rights Reserved</p>
+        </section>
+    </main>
+    <script src="piscript.js"></script>
+    <script src="pi_map.js"></script>
+</body>
+</html>

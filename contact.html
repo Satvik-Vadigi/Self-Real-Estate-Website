@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="contactstyles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="top">
+                <img src="https://graphicsfamily.com/wp-content/uploads/edd/2020/04/house-apartment-logo-green-Transparent-1.png" alt="logo" />
+                <img src="https://graphicsfamily.com/wp-content/uploads/edd/2020/04/house-apartment-logo-green-Transparent-1.png" alt="name" />
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="galarry.html">Gallery</a>
+                <a href="plotinfo.html">Plot Information</a>
+                <a href="amenities.html">Amenities</a>
+                <a href="contact.html">Contact</a>
+                <a href="testimonials.html">Testimonials</a>
+                <a href="blog_news.html">Blog/News</a>
+                <a href="legalinfo.html">Legal Information</a>
+            </nav>
+        </header>
+        <section class="heading">
+            <h1>Contact Us</h1>
+        </section>
+        <section class="contact-section">
+            <section class="contact">
+                <section class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="baby-ci">
+                        <p><strong>Name: </strong>Anonymous</p>
+                        <p><strong>Address: </strong><i>Jammu Narayanapuram, Vizianagaram, VIZIANAGARAM, Andhra Pradesh, India. <strong>Pin Code: </strong>535002</i></p>
+                        <p><strong>Phone Number: </strong><a href="tele:=919999999999">+91 9999999999</a></p>
+                        <p><strong>Mail ID: </strong><a href="mailto:bhoodevigardens@gmail.com">bhoodevigardens@gmail.com</a></p>
+                    </div>
+                </section>
+            </section>
+            <section class="map">
+                <div class="map-text">
+                    <h2>Find Bhudevi Gardens in Map</h2>
+                </div>
+                <div class="map-container">
+                    <div id="map" class="google-map"></div>
+                </div>
+            </section>
+        </section>
+        <form>
+            <section class="form-head">
+                <h3>Contact Form</h3>
+                <p>Send us a message through this form</p>
+            </section>
+            <section class="form-body">
+                <label for="#name"><input id="name" type="text" placeholder=" Full Name" required /></label>
+                <label for="#mail"><input id="mail" type="email" placeholder=" Mail-ID" required /></label>
+                <label for="#msg"><textarea id="msg" rows="4" placeholder="Type your message..." required></textarea></label>
+            </section>
+            <section class="form-foot">
+                <button type="submit">Send Message</button>
+                <button type="reset">Reset Form</button>
+            </section>
+        </form>
+        <section class="social">
+            <div class="social-head">
+                <h3>Social Media</h3>
+            </div>
+            <div class="icons-grid">
+                <a href="https://www.instagram.com/bhudevigardens/" id="ig">
+                    <div class="ig">
+                        <img src="https://static.vecteezy.com/system/resources/previews/018/930/692/original/instagram-logo-instagram-icon-transparent-free-png.png" alt="Insta" />
+                        <p>Instagram</p>
+                    </div>
+                </a>
+                <a href="https://www.x.com/bhudevigardens/" id="x">
+                    <div class="x">
+                        <img src="https://static.vecteezy.com/system/resources/previews/031/737/215/large_2x/twitter-new-logo-twitter-icons-new-twitter-logo-x-2023-x-social-media-icon-free-png.png" alt="X/Twitter" />
+                        <p>X/Twitter</p>
+                    </div>
+                </a>
+                <a href="https://wa.me/+919999999999" id="whatsapp">
+                    <div class="wa">
+                        <img src="https://www.freeiconspng.com/uploads/whatsapp-black-logo-icon--24.png" alt="WhatsApp" />
+                        <p>WhatsApp</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/bhudevigarden/" id="yt">
+                    <div class="yt">
+                        <img src="http://www.edigitalagency.com.au/wp-content/uploads/YouTube-icon-black-png.png" alt="YouTube" />
+                        <p>YouTube</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <footer>
+            <p>© Satvik Vadigi 2025 All Rights Reserved</p>
+        </footer>
+    </main>
+    <script src="pi_map.js"></script>
+</body>
+</html>
